@@ -1,15 +1,15 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-form{
+form {
     border: 1px solid gray;
     max-width: 400px;
     width: 50%;
@@ -20,42 +20,54 @@ form{
     height: 40vh;
 }
 
-input, button{
+input,
+button {
     margin-bottom: 5%;
 }
 
-.text-input{
+.text-input {
     width: 95%;
     padding: 2%;
 }
 
-.button1{
+.button1 {
     background-color: orange;
-    width:402px;
+    width: 402px;
 }
+
 .container {
-  max-width: 50%;  
-  margin: 40px auto;
+    max-width: 50%;
+    margin: 40px auto;
 }
 
-.main{
-    text-align:center;
-    
+h3 {
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    margin-left:325px;
 }
 
-.button2{
+h3 span {
+    background: #fff;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.button2 {
     align-items: center;
-    margin-left:450px;
-    width:30%;
-    height:30px;
+    margin-left: 450px;
+    width: 30%;
+    height: 30px;
 
 }
 
-.footer{
-    color:blue;
-    text-align:center;
+.footer {
+    color: blue;
+    text-align: center;
 }
 
-.footer2{
-    text-align:center;
+.footer2 {
+    text-align: center;
 }
